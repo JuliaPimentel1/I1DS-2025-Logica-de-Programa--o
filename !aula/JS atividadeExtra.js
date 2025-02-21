@@ -58,3 +58,61 @@ Saída: 1, 3, 4, 7, 9
 const ordemNumero = [8, 3, 5, 1, 9];
 console.log(ordemNumero);
 console.log(ordemNumero.sort());
+// -----------------------------------------------------------
+
+/***************************************************** 
+                Exercícios para fixação 
+*****************************************************/ 
+/* Estourando o cartão - versão while - utilizando o navegador
+1. Crie uma variável e solicite ao usuário o seu nome;
+2. Crie uma variável e solicite ao usuário o seu nome do banco; 
+3. Crie uma variável e solicite ao usuário a sua agência; 
+4. Crie uma variável e solicite ao usuário o número da conta; 
+5. Crie uma variável e solicite ao usuário o saldo da conta; 
+6. Exiba ao usuário os dados e o saldo da conta; 
+7. Efetue e exiba ao usuário 5 movimentações na conta; 
+8. Exiba ao usuário novamente os dados e o saldo da conta;
+*/ 
+var nome = prompt("Informe seu nome:")
+var banco = prompt("Informe seu banco:")
+var agencia = prompt("Informe sua agencia:")
+var conta = prompt("Informe sua conta:")
+var saldo = prompt("Informe seu saldo:")
+//(`Olá ${Julia}! Seu banco ${brasil} numero de conta: ${19346}`) | sau saldo é ${1000}`);
+
+var contador = 1;
+while (contador <= 5) {
+    let gasto = Math.random()*100; //Valor aleatório entre 0 e 99.999...
+    saldo -= gasto;
+    console.log(contador);
+    contador++;
+}
+ //console.log(saldo.toFixed(2)); //Deixa o valor decimal somente com 2 casas
+
+ console.log(
+`Olá ${Julia}! Seu banco ${brasil} numero de conta: ${19346} | seu saldo é ${saldo.toFixed(2)}`
+ );
+
+
+// Jogo cara e coroa - melhor de três rodadas - aleatório - DO-While
+// Apresentar um placar das rodadas ex:
+
+console.log("----------------------------");
+console.log("            Placar          ");
+console.log("----------------------------");
+console.log(`Vitórias: 'variavelVitoria`);
+console.log(`Derrotas:  'variavelDerrotas`);
+console.log("------------------------------")
+
+var i = 1;
+var cara = [0];
+var coroa = [0];
+var contador = [1];
+derrotas = 0;
+let fase = 2
+for (let i = 0; i < numeros.length; i++){
+    numeros[i] % 2 == 0 ? cara ++ : coroa++;
+   }
+   console.log
+
+
