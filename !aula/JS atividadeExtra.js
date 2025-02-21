@@ -58,7 +58,3 @@ Saída: 1, 3, 4, 7, 9
 const ordemNumero = [8, 3, 5, 1, 9];
 console.log(ordemNumero);
 console.log(ordemNumero.sort());
-------------------------------------------------------------------------
-
-
-*/
